@@ -6,7 +6,10 @@
  * @param {*} amount
  */ 
 
+// Vamos criar uma função chamada sellProduct que irá reber o produto e a quantia desse produto
+
 export default function sellProduct(product, amount){
+    //Vender um produto, assim diminuindo no estoque, nesse caso 1. Depois retornar o "product"
     product.stock -= 1;
     return product;
 }
