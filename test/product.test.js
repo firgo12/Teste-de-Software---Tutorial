@@ -1,6 +1,5 @@
 // A quantidade vendida pode ser de 1 ou mais unidades
 
-import { TestScheduler } from '@jest/core'
 import Product from '../src/model/product' // Importando a classe Product pasta model
 import sell from '../src/service/sellProduct' // Importando a função sellProduct da pasta service
 
